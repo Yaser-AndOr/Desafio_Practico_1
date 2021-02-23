@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+Cantidad
+1
+0
+5
+Valor
+1
+0
+5
+Monto
+1
+0
+4
+1
+151
+'Calculadora de precios; ingrese el precio de un artículo, la cantidad de artículos y el programa retornará el precio total a cancelar por el cliente.'
+4
+1
+33
+'Ingrese el precio del artículo.'
+5
+1
+5
+Valor
+4
+1
+34
+'Ingrese la cantidad de artículos'
+5
+1
+8
+Cantidad
+6
+1
+5
+Monto
+16
+Valor * Cantidad
+4
+1
+51
+'El monto a cancelar por el cliente es de $', Monto
+1
