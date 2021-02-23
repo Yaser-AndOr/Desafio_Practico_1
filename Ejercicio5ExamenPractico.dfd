@@ -1,0 +1,654 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+5
+GP300
+1
+0
+6
+3
+6
+SBEmp1
+1
+0
+6
+SBEmp2
+1
+0
+6
+SBEmp3
+1
+0
+6
+3
+6
+BnEmp1
+1
+0
+6
+BnEmp2
+1
+0
+6
+BnEmp3
+1
+0
+6
+3
+2
+y1
+1
+0
+2
+y2
+1
+0
+2
+y3
+1
+0
+4
+1
+138
+'Calculadora de salario. Ingrese 3 empleados, sus cargos y las horas que ha trabajado cada uno, cada texto debe ir entre comillas simples'
+4
+1
+142
+'Ingrese el nombre completo del primer empleado, luego su cargo y por último sus horas trabajadas, cada texto debe ir entre comillas simples.'
+5
+1
+16
+NmbEmp1, CrgEmp1
+8
+1
+1
+x
+1
+1
+0
+1
+2
+y1
+1
+1
+1
+5
+1
+7
+HrsTbj1
+7
+0
+1
+11
+HrsTbj1 < 1
+6
+1
+2
+y1
+2
+y1
+13
+6
+1
+2
+y1
+5
+x + 1
+4
+1
+38
+'Ingrese una cantidad válida de horas'
+13
+10
+4
+1
+143
+'Ingrese el nombre completo del segundo empleado, luego su cargo y por último sus horas trabajadas, cada texto debe ir entre comillas simples.'
+5
+1
+16
+NmbEmp2, CrgEmp2
+8
+1
+1
+x
+1
+1
+0
+1
+2
+y2
+1
+1
+1
+5
+1
+7
+HrsTbj2
+7
+0
+1
+11
+HrsTbj2 < 1
+6
+1
+2
+y2
+2
+y2
+13
+6
+1
+2
+y2
+5
+x + 1
+4
+1
+38
+'Ingrese una cantidad válida de horas'
+13
+10
+4
+1
+142
+'Ingrese el nombre completo del tercer empleado, luego su cargo y por último sus horas trabajadas, cada texto debe ir entre comillas simples.'
+5
+1
+16
+NmbEmp3, CrgEmp3
+8
+1
+1
+x
+1
+1
+0
+1
+2
+y3
+1
+1
+1
+5
+1
+7
+HrsTbj3
+7
+0
+1
+11
+HrsTbj3 < 1
+6
+1
+2
+y3
+2
+y3
+13
+6
+1
+2
+y3
+5
+x + 1
+4
+1
+38
+'Ingrese una cantidad válida de horas'
+13
+10
+7
+0
+1
+13
+HrsTbj1 > 160
+6
+1
+6
+SBEmp1
+14
+HrsTbj1 * 9.75
+13
+6
+1
+6
+SBEmp1
+39
+((160 * 9.75)+((HrsTbj1 - 160) * 11.5))
+13
+6
+3
+8
+ISSSEmp1
+15
+SBEmp1 * 0.0525
+7
+AFPEmp1
+15
+SBEmp1 * 0.0688
+9
+RENTAEmp1
+12
+SBEmp1 * 0.1
+6
+1
+6
+SLEmp1
+41
+SBEmp1 - (ISSSEMP1 + AFPEMP1 + RENTAEmp1)
+7
+0
+1
+13
+HrsTbj2 > 160
+6
+1
+6
+SBEmp2
+14
+HrsTbj2 * 9.75
+13
+6
+1
+6
+SBEmp2
+39
+((160 * 9.75)+((HrsTbj2 - 160) * 11.5))
+13
+6
+3
+8
+ISSSEmp2
+15
+SBEmp2 * 0.0525
+7
+AFPEmp2
+15
+SBEmp2 * 0.0688
+9
+RENTAEmp2
+12
+SBEmp2 * 0.1
+6
+1
+6
+SLEmp2
+41
+SBEmp2 - (ISSSEmp2 + AFPEmp2 + RENTAEmp2)
+7
+0
+1
+13
+HrsTbj3 > 160
+6
+1
+6
+SBEmp3
+14
+HrsTbj3 * 9.75
+13
+6
+1
+6
+SBEmp3
+39
+((160 * 9.75)+((HrsTbj3 - 160) * 11.5))
+13
+6
+3
+8
+ISSSEmp3
+15
+SBEmp3 * 0.0525
+7
+AFPEmp3
+15
+SBEmp3 * 0.0688
+9
+RENTAEmp3
+12
+SBEmp3 * 0.1
+6
+1
+6
+SLEmp3
+41
+SBEmp3 - (ISSSEmp3 + AFPEmp3 + RENTAEmp3)
+7
+0
+1
+19
+CrgEmp1 = 'Gerente'
+6
+1
+4
+Bono
+1
+1
+13
+7
+0
+1
+21
+CrgEmp2 = 'Asistente'
+6
+1
+4
+Bono
+1
+1
+13
+7
+0
+1
+22
+CrgEmp3 = 'Secretaria'
+6
+1
+4
+Bono
+1
+1
+13
+6
+1
+4
+Bono
+1
+0
+13
+13
+13
+7
+0
+1
+8
+Bono = 1
+13
+7
+0
+1
+19
+CrgEmp1 = 'Gerente'
+7
+0
+1
+21
+CrgEmp1 = 'Asistente'
+7
+0
+1
+22
+CrgEmp1 = 'Secretaria'
+6
+1
+6
+BnEmp1
+12
+SLEmp1 * 0.2
+13
+6
+1
+6
+BnEmp1
+13
+SLEmp1 * 0.03
+13
+13
+6
+1
+6
+BnEmp1
+13
+SLEmp1 * 0.05
+13
+13
+6
+1
+6
+BnEmp1
+12
+SLEmp1 * 0.1
+13
+7
+0
+1
+19
+CrgEmp2 = 'Gerente'
+7
+0
+1
+21
+CrgEmp2 = 'Asistente'
+7
+0
+1
+22
+CrgEmp2 = 'Secretaria'
+6
+1
+6
+BnEmp2
+13
+SLEmp2 * 0.02
+13
+6
+1
+6
+BnEmp2
+13
+SLEmp2 * 0.03
+13
+13
+6
+1
+6
+BnEmp2
+13
+SLEmp2 * 0.05
+13
+13
+6
+1
+6
+BnEmp2
+12
+SLEmp2 * 0.1
+13
+7
+0
+1
+19
+CrgEmp3 = 'Gerente'
+7
+0
+1
+21
+CrgEmp3 = 'Asistente'
+7
+0
+1
+22
+CrgEmp3 = 'Secretaria'
+6
+1
+6
+BnEmp3
+13
+SLEmp3 * 0.02
+13
+6
+1
+6
+BnEmp3
+13
+SLEmp3 * 0.03
+13
+13
+6
+1
+6
+BnEmp3
+13
+SLEmp3 * 0.05
+13
+13
+6
+1
+6
+BnEmp3
+12
+SLEmp3 * 0.1
+13
+13
+6
+3
+6
+SLEmp1
+15
+SLEmp1 + BnEmp1
+6
+SLEmp2
+15
+SLEmp2 + BnEmp2
+6
+SLEmp3
+15
+SLEmp3 + BnEmp3
+7
+0
+1
+8
+Bono = 1
+4
+1
+332
+'El empleado ', NmbEmp1, ' cuyo cargo es ', CrgEmp1, ' ha trabajado ', HrsTbj1, ' horas, lo cual le otorga un sueldo base de: $', SBEmp1, ' del cual se descuentan: $', ISSSEmp1, ' correspondientes a ISSS, $', AFPEmp1, ' correspondientes a AFP y $', RENTAEmp1, ' correspondiente a RENTA; quedando un sueldo líquido de: ', SLEmp1, '.'
+4
+1
+332
+'El empleado ', NmbEmp2, ' cuyo cargo es ', CrgEmp2, ' ha trabajado ', HrsTbj2, ' horas, lo cual le otorga un sueldo base de: $', SBEmp2, ' del cual se descuentan: $', ISSSEmp2, ' correspondientes a ISSS, $', AFPEmp2, ' correspondientes a AFP y $', RENTAEmp2, ' correspondiente a RENTA; quedando un sueldo líquido de: ', SLEmp2, '.'
+4
+1
+332
+'El empleado ', NmbEmp3, ' cuyo cargo es ', CrgEmp3, ' ha trabajado ', HrsTbj3, ' horas, lo cual le otorga un sueldo base de: $', SBEmp3, ' del cual se descuentan: $', ISSSEmp3, ' correspondientes a ISSS, $', AFPEmp3, ' correspondientes a AFP y $', RENTAEmp3, ' correspondiente a RENTA; quedando un sueldo líquido de: ', SLEmp3, '.'
+4
+1
+16
+'¡NO HAY BONOS!'
+13
+4
+1
+379
+'El empleado ', NmbEmp1, ' cuyo cargo es ', CrgEmp1, ' ha trabajado ', HrsTbj1, ' horas, lo cual le otorga un sueldo base de: $', SBEmp1, ' del cual se descuentan: $', ISSSEmp1, ' correspondientes a ISSS, $', AFPEmp1, ' correspondientes a AFP y $', RENTAEmp1, ' correspondiente a RENTA; quedando un sueldo líquido de: ', SLEmp1, ', cantidad que incluye un bono de $', BnEmp1, '.'
+4
+1
+379
+'El empleado ', NmbEmp2, ' cuyo cargo es ', CrgEmp2, ' ha trabajado ', HrsTbj2, ' horas, lo cual le otorga un sueldo base de: $', SBEmp2, ' del cual se descuentan: $', ISSSEmp2, ' correspondientes a ISSS, $', AFPEmp2, ' correspondientes a AFP y $', RENTAEmp2, ' correspondiente a RENTA; quedando un sueldo líquido de: ', SLEmp2, ', cantidad que incluye un bono de $', BnEmp2, '.'
+4
+1
+379
+'El empleado ', NmbEmp3, ' cuyo cargo es ', CrgEmp3, ' ha trabajado ', HrsTbj3, ' horas, lo cual le otorga un sueldo base de: $', SBEmp3, ' del cual se descuentan: $', ISSSEmp3, ' correspondientes a ISSS, $', AFPEmp3, ' correspondientes a AFP y $', RENTAEmp3, ' correspondiente a RENTA; quedando un sueldo líquido de: ', SLEmp3, ', cantidad que incluye un bono de $', BnEmp3, '.'
+13
+7
+0
+1
+15
+SLEmp2 > SLEmp3
+4
+1
+37
+'El empleado ', NmbEmp3, ' gana más.'
+13
+7
+0
+1
+15
+SLEmp1 > SLEmp2
+4
+1
+37
+'El empleado ', NmbEmp2, ' gana más.'
+13
+4
+1
+37
+'El empleado ', NmbEmp1, ' gana más.'
+13
+13
+7
+0
+1
+15
+SLEmp2 < SLEmp3
+4
+1
+39
+'El empleado ', NmbEmp3, ' gana menos.'
+13
+7
+0
+1
+15
+SLEmp1 < SLEmp2
+4
+1
+39
+'El empleado ', NmbEmp2, ' gana menos.'
+13
+4
+1
+39
+'El empleado ', NmbEmp1, ' gana menos.'
+13
+13
+7
+0
+1
+12
+SLEmp1 > 300
+13
+6
+1
+5
+GP300
+9
+GP300 + 1
+13
+7
+0
+1
+12
+SLEmp2 > 300
+13
+6
+1
+5
+GP300
+9
+GP300 + 1
+13
+7
+0
+1
+12
+SLEmp3 > 300
+13
+6
+1
+5
+GP300
+9
+GP300 + 1
+13
+4
+1
+54
+'Hay ', GP300, ' empleado(s) que gana(n) más de $300.'
+1

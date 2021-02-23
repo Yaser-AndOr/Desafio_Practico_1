@@ -1,0 +1,7 @@
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\bin\Debug\Ejercicio5ExamenPractico.exe.config
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\bin\Debug\Ejercicio5ExamenPractico.exe
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\bin\Debug\Ejercicio5ExamenPractico.pdb
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\obj\Debug\Ejercicio5ExamenPractico.csprojAssemblyReference.cache
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\obj\Debug\Ejercicio5ExamenPractico.csproj.CoreCompileInputs.cache
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\obj\Debug\Ejercicio5ExamenPractico.exe
+C:\Users\yaser\source\repos\Ejercicio5ExamenPractico\Ejercicio5ExamenPractico\obj\Debug\Ejercicio5ExamenPractico.pdb
