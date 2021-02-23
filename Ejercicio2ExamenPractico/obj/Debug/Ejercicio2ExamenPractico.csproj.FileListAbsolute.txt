@@ -1,0 +1,7 @@
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\bin\Debug\Ejercicio2ExamenPractico.exe.config
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\bin\Debug\Ejercicio2ExamenPractico.exe
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\bin\Debug\Ejercicio2ExamenPractico.pdb
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\obj\Debug\Ejercicio2ExamenPractico.csprojAssemblyReference.cache
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\obj\Debug\Ejercicio2ExamenPractico.csproj.CoreCompileInputs.cache
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\obj\Debug\Ejercicio2ExamenPractico.exe
+C:\Users\Cesar Regalado\source\repos\Ejercicio2ExamenPractico\obj\Debug\Ejercicio2ExamenPractico.pdb

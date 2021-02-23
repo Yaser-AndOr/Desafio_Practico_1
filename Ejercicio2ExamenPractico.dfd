@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+113
+'Ingresar 4 numeros, los dos primeros numeros deben representar una suma, y el tercero con el cuarto un producto'
+5
+1
+14
+n1, n2, n3, n4
+6
+2
+4
+suma
+5
+n1+n2
+8
+producto
+5
+n3*n4
+4
+1
+103
+'la suma de los dos primeros numeros es ',suma,' y el producto del tercer y cuarto numero es ',producto
+1
